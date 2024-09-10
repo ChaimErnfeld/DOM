@@ -34,10 +34,10 @@ function moveCars(imgId) {
 
   const intervalID = setInterval(() => {
     const racer = document.getElementById(`img${imgId + 1}`);
-    marginLeft += Math.random() * 500;
+    marginLeft += Math.random() * 100;
     racer.style.marginLeft = `${marginLeft}px`;
 
-    if (marginLeft > 900) {
+    if (marginLeft > 1100) {
       clearInterval(intervalID);
     }
   }, 500);
