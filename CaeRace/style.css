@@ -1,0 +1,152 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgba(216, 235, 252, 0.747);
+}
+
+.mainDiv {
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 40px;
+  padding-bottom: 30px;
+}
+.mainDiv > .headDiv {
+  padding: 20px;
+  background-color: rgba(227, 235, 252, 0.658);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.247);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: solid 1px black;
+  border-radius: 7px;
+  margin-top: 15px;
+  min-width: 350px;
+  gap: 15px;
+}
+.mainDiv > .headDiv > .choos {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.mainDiv > .headDiv > .choos > .p {
+  padding: 4px;
+}
+.mainDiv > .headDiv > .choos > input {
+  font-size: 18px;
+  border: 1px solid black;
+  height: 25px;
+}
+.mainDiv > .headDiv > .choos > button {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.247);
+  padding: 4px;
+  background-color: rgba(60, 144, 218, 0.781);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  margin: 10px;
+  height: 50px;
+  width: 100px;
+}
+.mainDiv > .headDiv > .choos > button:hover {
+  background-color: rgba(60, 144, 218, 0.925);
+}
+h1 {
+  color: rgba(60, 144, 218, 0.781);
+  font-weight: bold;
+}
+.raceDiv {
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 40px;
+  padding-bottom: 30px;
+}
+.mainDiv > .raceDiv > #racer1 {
+  width: 97%;
+  height: 100px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 30px;
+  border: 2px solid black;
+  padding-left: 0px;
+  margin-bottom: 15px;
+  position: relative;
+}
+.mainDiv > .raceDiv > #racer2 {
+  width: 97%;
+  height: 100px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 30px;
+  border: 2px solid black;
+  padding-left: 0px;
+  margin-bottom: 15px;
+  position: relative;
+}
+.mainDiv > .raceDiv > #racer3 {
+  width: 97%;
+  height: 100px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 30px;
+  border: 2px solid black;
+  padding-left: 0px;
+  margin-bottom: 15px;
+  position: relative;
+}
+.mainDiv > .raceDiv > #racer4 {
+  width: 97%;
+  height: 100px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 30px;
+  border: 2px solid black;
+  padding-left: 0px;
+  position: relative;
+}
+#img1 {
+  background-color: white;
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+  padding: 20px;
+  border-radius: 40px;
+  margin-left: 0px;
+}
+#img2 {
+  background-color: white;
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+  padding: 20px;
+  border-radius: 40px;
+  margin-left: 0px;
+}
+#img3 {
+  background-color: white;
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+  padding: 20px;
+  border-radius: 40px;
+  margin-left: 0px;
+}
+#img4 {
+  background-color: white;
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+  padding: 20px;
+  border-radius: 40px;
+}
+.redStripe {
+  position: absolute;
+  top: 8px;
+  right: 4%;
+  width: 5px;
+  height: 80px;
+  background-color: red;
+}
