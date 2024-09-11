@@ -77,6 +77,7 @@ h1 {
   padding-left: 0px;
   margin-bottom: 15px;
   position: relative;
+  overflow: hidden;
 }
 .mainDiv > .raceDiv > #racer2 {
   width: 97%;
@@ -87,6 +88,7 @@ h1 {
   padding-left: 0px;
   margin-bottom: 15px;
   position: relative;
+  overflow: hidden;
 }
 .mainDiv > .raceDiv > #racer3 {
   width: 97%;
@@ -97,6 +99,7 @@ h1 {
   padding-left: 0px;
   margin-bottom: 15px;
   position: relative;
+  overflow: hidden;
 }
 .mainDiv > .raceDiv > #racer4 {
   width: 97%;
@@ -106,6 +109,7 @@ h1 {
   border: 2px solid black;
   padding-left: 0px;
   position: relative;
+  overflow: hidden;
 }
 #img1 {
   background-color: white;
@@ -149,4 +153,15 @@ h1 {
   width: 5px;
   height: 80px;
   background-color: red;
+}
+#resetBtn {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.247);
+  padding: 4px;
+  background-color: rgba(60, 144, 218, 0.781);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  margin: 10px;
+  height: 50px;
+  width: 100px;
 }
