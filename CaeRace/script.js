@@ -40,7 +40,7 @@ function moveCars(imgId) {
   const startTime = Date.now();
 
   const intervalID = setInterval(() => {
-    const racer = document.getElementById(`img${imgId + 1}`);
+    const racer = document.getElementById(`img${imgId}`);
     marginLeft += Math.random() * 4;
     racer.style.marginLeft = `${marginLeft}%`;
 
@@ -48,7 +48,7 @@ function moveCars(imgId) {
       clearInterval(intervalID);
       const endTime = Date.now();
       const timeTaken = (endTime - startTime) / 1000;
-      printResult(imgId + 1, timeTaken);
+      printResult(imgId, timeTaken);
     }
   }, 200);
 }
